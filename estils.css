@@ -1,0 +1,46 @@
+/*punto 1*/
+p{
+ color: green;   
+}
+/*punto 2*/
+#titol{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+/*punto 3*/
+.text-important{
+    color: red;
+    font-weight: bold;
+}
+.vermell{
+    color: red
+}
+.verd{
+    color: green;
+}
+.blau{
+    color: blue;
+}
+.gran{
+    font-size: 24px;
+}
+.negreta{
+    font-weight: bold;
+}
+.subratllat{
+    text-decoration: underline;
+}
+/*punto 4*/
+a:hover{
+    color: aquamarine;
+    cursor: pointer;
+}
+/*punto 5*/
+p::before {
+    content: "👉 ";
+    color: blue;
+}
+p::after{
+    content: " ✔";
+    color: green;
+}
